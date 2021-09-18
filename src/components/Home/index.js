@@ -3,8 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <section>
-      <div className="hero"></div>
-      <div className="social">
+      <div className="hero">
         <h1 className="titles">
           <u>Colin Reinhardt</u>
         </h1>
