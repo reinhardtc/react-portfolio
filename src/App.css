@@ -43,7 +43,7 @@ header {
 
 .nav-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .navInactive,
@@ -57,6 +57,10 @@ header {
   margin: 0, 10, 0, 10;
 }
 
+.flex-row {
+  width: 100%;
+}
+
 a {
   color: var(--beau-blue);
 }
@@ -65,4 +69,15 @@ a {
 .navInactive:hover {
   color: var(--metallic-seaweed);
   transition: 0.5s;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin,
+.github {
+  margin-left: 10px;
+  margin-right: 10px;
 }
