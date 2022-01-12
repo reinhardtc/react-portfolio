@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300;400&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 main {
   margin: 0 auto;
 }
@@ -10,10 +14,6 @@ main {
   --beau-blue: #bfdbf7;
   --lavender-web: #e1e5f2ff;
   --white: #ffffffff;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 html,
@@ -81,3 +81,34 @@ a {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* about page */
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.my-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#bioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.skillBoxes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* portfolio page */
+
+/* contact page */

@@ -6,12 +6,12 @@ function About() {
     <section className="my-5">
       <h1 className="titles">About Me</h1>
       <hr></hr>
-      <div id="container">
-        <div className="img-text-box col">
-          <div className="img-box col-lg-4">
-            <img src={headShot} alt="Me" className="margin-block my-pic" />
+      <div id="bioContainer">
+        <div>
+          <div className="img-box">
+            <img src={headShot} alt="Me" className="my-pic" />
           </div>
-          <div className="my-2 margin-block col-lg-8">
+          <div className="bio">
             <p>
               Hi there! Welcome to my site. My name is Colin Reinhardt. I recently earned my full
               stack web development certificate from the coding bootcamp at the University of TX at
@@ -20,18 +20,18 @@ function About() {
               about new and exciting technology. If you have any questions about my experience,
               projects, or me, I'd love to hear from you!
             </p>
-            <p>My Skills and Competencies</p>
-            <ul className="bullets">
-              <li>Teamwork and Communication</li>
-              <li>Attention to detail</li>
-              <li>Working knowledge of Agile project management methodology</li>
-            </ul>
           </div>
         </div>
       </div>
-      <div className="boxes">
+      <div className="skillBoxes">
+        <h3 className="titles">My Skills and Competencies</h3>
+        <ul className="bullets">
+          <li>Teamwork and Communication</li>
+          <li>Attention to detail</li>
+          <li>Working knowledge of Agile project management methodology</li>
+        </ul>
         <h3 className="titles">Technical Skills and Knowledge</h3>
-        <ul>
+        <ul className="bullets">
           <li>
             <u>Programming Languages:</u> HTML, CSS, JavaScript
           </li>
