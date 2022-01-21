@@ -13,18 +13,19 @@ function About() {
           </div>
           <div className="bio">
             <p>
-              Hi there! Welcome to my site. My name is Colin Reinhardt. I recently earned my full
-              stack web development certificate from the coding bootcamp at the University of TX at
-              Austin. Previously, I've worked in technology customer service for 10 years. I studied
-              classical singing in College, but found that I also had a great interest in learning
-              about new and exciting technology. If you have any questions about my experience,
-              projects, or me, I'd love to hear from you!
+              Hi there!<br></br>
+              <br></br> Welcome to my website. My name is Colin Reinhardt. I recently earned my full
+              stack web development certificate from the coding bootcamp at the University of Texas
+              at Austin. Previously, I've worked in technology customer service for over 10 years. I
+              studied classical singing in College, but found that I also had a great interest in
+              learning about new and exciting technology. If you have any questions about my
+              experience, projects, or me, I'd love to hear from you. Cheers!
             </p>
           </div>
         </div>
       </div>
       <div className="skillBoxes">
-        <h3 className="titles">My Skills and Competencies</h3>
+        <h3 className="titles">Soft Skills and Competencies</h3>
         <ul className="bullets">
           <li>Teamwork and Communication</li>
           <li>Attention to detail</li>

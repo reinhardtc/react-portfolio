@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Nav from '../src/components/Nav';
 import About from '../src/components/About';
-import Contact from '../src/components/Contact';
-// import Portfolio from '../src/components/Portfolio';
+// import Contact from '../src/components/Contact';
+import Portfolio from '../src/components/Portfolio';
 import Home from '../src/components/Home';
 import Footer from '../src/components/Footer';
 
@@ -14,10 +14,10 @@ function App() {
     switch (currentPage) {
       case 'About':
         return <About />;
-      // case 'Portfolio':
-      //   return <Portfolio />;
-      case 'Contact':
-        return <Contact />;
+      case 'Portfolio':
+        return <Portfolio />;
+      // case 'Contact':
+      //   return <Contact />;
       default:
         return <Home />;
     }
