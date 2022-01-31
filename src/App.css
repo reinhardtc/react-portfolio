@@ -110,15 +110,20 @@ li a {
 	display: grid;
 	grid-template-columns: auto auto;
 	column-gap: 50px;
-	row-gap: 50px;
+	row-gap: 25px;
 	justify-content: center;
 }
 
 .projectItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	text-align: center;
 }
 
-.projectBox {
+.projectImage {
+	justify-content: center;
 	height: 200px;
 	width: 400px;
 	border-radius: 15px;
@@ -141,11 +146,6 @@ li a {
 
 .noteTaker {
 	background-image: url('./assets/noteTaker.png');
-}
-
-a {
-	color: black;
-	padding: 0 5px;
 }
 
 /* footer */
