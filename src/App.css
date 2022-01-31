@@ -62,7 +62,7 @@ header {
 	width: 100%;
 }
 
-a {
+li a {
 	color: var(--beau-blue);
 }
 
@@ -110,43 +110,42 @@ a {
 	display: grid;
 	grid-template-columns: auto auto;
 	column-gap: 50px;
-	row-gap: 100px;
+	row-gap: 50px;
 	justify-content: center;
+}
+
+.projectItem {
+	text-align: center;
 }
 
 .projectBox {
 	height: 200px;
 	width: 400px;
 	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .mealMatch {
 	background-image: url('./assets/meal-match.png');
-	grid-column-start: 1 2;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .cleanest {
 	background-image: url('./assets/cleanest.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .reactBudget {
 	background-image: url('./assets/budgetTracker.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .noteTaker {
 	background-image: url('./assets/noteTaker.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+}
+
+a {
+	color: black;
+	padding: 0 5px;
 }
 
 /* footer */
