@@ -1,147 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300;400&display=swap');
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 main {
-  background-color: var(--lavender-web);
+	background-color: var(--lavender-web);
 }
 
 :root {
-  --gunmetal: #022b3aff;
-  --metallic-seaweed: #1f7a8cff;
-  --beau-blue: #bfdbf7;
-  --lavender-web: #e1e5f2ff;
-  --white: #ffffffff;
+	--gunmetal: #022b3aff;
+	--metallic-seaweed: #1f7a8cff;
+	--beau-blue: #bfdbf7;
+	--lavender-web: #e1e5f2ff;
+	--white: #ffffffff;
 }
 
 html,
 body {
-  /* height: 100%; */
-  font-family: 'Montserrat', sans-serif;
+	/* height: 100%; */
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-weight: 100;
-  height: 100%;
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+	height: 100%;
 }
 
 .titles {
-  text-align: center;
+	text-align: center;
 }
 
 header {
-  background: var(--gunmetal);
-  height: 125px;
-  text-align: center;
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
+	background: var(--gunmetal);
+	height: 125px;
+	text-align: center;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 .nav-row {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .navInactive,
 .navActive {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .navListItem {
-  list-style-type: none;
-  font-size: 2em;
-  margin: 0, 10, 0, 10;
+	list-style-type: none;
+	font-size: 2em;
+	margin: 0, 10, 0, 10;
 }
 
 .flex-row {
-  width: 100%;
+	width: 100%;
 }
 
 a {
-  color: var(--beau-blue);
+	color: var(--beau-blue);
 }
 
 .navActive:hover,
 .navInactive:hover {
-  color: var(--metallic-seaweed);
-  transition: 0.5s;
+	color: var(--metallic-seaweed);
+	transition: 0.5s;
 }
 
 /* about page */
 
 .img-box {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
 }
 
 .my-pic {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
 }
 
 #bioContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 30% 0 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 30% 0 30%;
 }
 
 .skillBoxes {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 /* portfolio page */
 
 .projectsHeader {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .projectsContainer {
-  display: flex;
-  justify-content: space-evenly;
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 50px;
+	row-gap: 100px;
+	justify-content: center;
 }
 
 .projectBox {
-  height: 200px;
-  width: 400px;
-  margin: 100px 0;
-  border-radius: 15px;
-  background-color: var(--metallic-seaweed);
+	height: 200px;
+	width: 400px;
+	border-radius: 15px;
+}
+
+.mealMatch {
+	background-image: url('./assets/meal-match.png');
+	grid-column-start: 1 2;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cleanest {
+	background-image: url('./assets/cleanest.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.reactBudget {
+	background-image: url('./assets/budgetTracker.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.noteTaker {
+	background-image: url('./assets/noteTaker.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* footer */
 footer {
-  bottom: 0;
-  height: 100%;
+	bottom: 0;
+	height: 100%;
 }
 .social-links {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .linkedin,
 .github {
-  margin: 10px;
+	margin: 10px;
 }
 
 .contacts {
-  color: var(--metallic-seaweed);
+	color: var(--metallic-seaweed);
 }
 
 .contactInfo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
 }
