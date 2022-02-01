@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my portfolio which I built using React.
+This is my portfolio which I built using React. This site will be continuously updated.
 
 ![image](https://user-images.githubusercontent.com/25352227/151895383-4668cfdc-8c99-4a97-a6f4-c4d65d9d39c1.png)
 ![image](https://user-images.githubusercontent.com/25352227/151895427-60b41b59-38f4-4aa1-8fe1-33b495ef7859.png)
@@ -9,6 +9,6 @@ This is my portfolio which I built using React.
 
 ## Future updates
 
-This site will be continuously updated. Current update goals include:
+Current update goals include:
 - Collapse navigation to menu on smaller devices
 - Implement PWA functionality
