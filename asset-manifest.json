@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c7175189.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.04da9e12.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.04da9e12.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a0d3d599.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a0d3d599.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e8b1ad65.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e8b1ad65.js.map",
     "static/js/2.b165358e.chunk.js": "/react-portfolio/static/js/2.b165358e.chunk.js",
@@ -11,12 +11,13 @@
     "static/css/main.c7175189.chunk.css.map": "/react-portfolio/static/css/main.c7175189.chunk.css.map",
     "static/js/2.b165358e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b165358e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-portfolio/static/media/noteTaker.e7726f1a.png",
-    "static/media/colin_headshot.83bf994d.JPG": "/react-portfolio/static/media/colin_headshot.83bf994d.JPG"
+    "static/media/colin_headshot.83bf994d.JPG": "/react-portfolio/static/media/colin_headshot.83bf994d.JPG",
+    "static/media/resume.6f3131af.pdf": "/react-portfolio/static/media/resume.6f3131af.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e8b1ad65.js",
     "static/js/2.b165358e.chunk.js",
     "static/css/main.c7175189.chunk.css",
-    "static/js/main.04da9e12.chunk.js"
+    "static/js/main.a0d3d599.chunk.js"
   ]
 }
