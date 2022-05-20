@@ -13,7 +13,7 @@ function Footer() {
         <a className='contacts' href='mailto:reinhardtc22@gmail.com'>
           reinhardtc22@gmail.com
         </a>
-        <a href={resume} target='_blank'>
+        <a href={resume} target="_blank">
           Download my resume here
         </a>
       </div>
